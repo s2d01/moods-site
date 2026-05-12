@@ -427,3 +427,14 @@ h2 {
   width: 100%;
   height: 100%;
 }
+
+.early-form-action {
+  margin-top: 34px;
+}
+
+.form-button {
+  min-height: 58px;
+  padding: 0 34px;
+  font-size: 1rem;
+  letter-spacing: 0.04em;
+}
