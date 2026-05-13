@@ -138,7 +138,7 @@ h1 {
 }
 
 .button.primary {
-  background: var(--accent);
+  background: linear-gradient(135deg, var(--accent), var(--accent-strong));
   color: #07100d;
   border-color: transparent;
 }
@@ -150,6 +150,7 @@ h1 {
 
 .button:hover {
   transform: translateY(-1px);
+  box-shadow: 0 0 38px rgba(155, 210, 189, 0.18);
 }
 
 .microcopy {
@@ -497,11 +498,15 @@ h2 {
 
 .form-submit {
   width: fit-content;
-  min-height: 60px;
-  margin-top: 8px;
-  padding: 0 34px;
-  font-size: 0.98rem;
-  letter-spacing: 0.06em;
+  min-height: 62px;
+  margin-top: 10px;
+  padding: 0 38px;
+  border-radius: 999px;
+  font-size: 0.86rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  box-shadow: 0 0 34px rgba(155, 210, 189, 0.16);
 }
 
 .workflow-section {
