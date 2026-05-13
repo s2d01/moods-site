@@ -438,3 +438,68 @@ h2 {
   font-size: 1rem;
   letter-spacing: 0.04em;
 }
+
+.moods-form {
+  margin-top: 36px;
+  max-width: 720px;
+  display: grid;
+  gap: 22px;
+}
+
+.form-row {
+  display: grid;
+  gap: 10px;
+}
+
+.form-row label {
+  color: rgba(235, 245, 241, 0.72);
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.form-row input,
+.form-row select {
+  width: 100%;
+  min-height: 58px;
+  padding: 0 18px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.045);
+  color: var(--text);
+  font: inherit;
+  font-size: 1rem;
+  outline: none;
+}
+
+.form-row input::placeholder {
+  color: rgba(235, 245, 241, 0.34);
+}
+
+.form-row input:focus,
+.form-row select:focus {
+  border-color: rgba(155, 210, 189, 0.72);
+  box-shadow: 0 0 0 4px rgba(155, 210, 189, 0.10);
+}
+
+.form-row select {
+  appearance: none;
+  background-image:
+    linear-gradient(45deg, transparent 50%, rgba(235, 245, 241, 0.7) 50%),
+    linear-gradient(135deg, rgba(235, 245, 241, 0.7) 50%, transparent 50%);
+  background-position:
+    calc(100% - 23px) 50%,
+    calc(100% - 17px) 50%;
+  background-size: 6px 6px, 6px 6px;
+  background-repeat: no-repeat;
+}
+
+.form-submit {
+  width: fit-content;
+  min-height: 60px;
+  margin-top: 8px;
+  padding: 0 34px;
+  font-size: 0.98rem;
+  letter-spacing: 0.06em;
+}

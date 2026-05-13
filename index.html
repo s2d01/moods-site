@@ -131,11 +131,34 @@
           <span>No monthly or yearly subscription</span>
         </p>
 
-        <div class="early-form-action">
-  <a class="button primary form-button" href="https://tally.so/r/EkvGko" target="_blank" rel="noopener">
+        <form class="moods-form" action="https://formspree.io/f/xgodqzzb" method="POST">
+  <div class="form-row">
+    <label for="name">Name</label>
+    <input id="name" type="text" name="name" placeholder="Your name" required>
+  </div>
+
+  <div class="form-row">
+    <label for="email">Email</label>
+    <input id="email" type="email" name="email" placeholder="your@email.com" required>
+  </div>
+
+  <div class="form-row">
+    <label for="interest">I am interested as</label>
+    <select id="interest" name="interest">
+      <option value="">Select one</option>
+      <option value="Musician / Producer">Musician / Producer</option>
+      <option value="Sound Designer">Sound Designer</option>
+      <option value="Installation Artist">Installation Artist</option>
+      <option value="Visual Artist">Visual Artist</option>
+      <option value="Developer">Developer</option>
+      <option value="Listener / Other">Listener / Other</option>
+    </select>
+  </div>
+
+  <button class="button primary form-submit" type="submit">
     Join the Early Access List
-  </a>
-</div>
+  </button>
+</form>
 
         <p class="microcopy">
           No spam. Only MOODS beta access, release news and major project updates
