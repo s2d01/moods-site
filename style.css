@@ -374,9 +374,9 @@ h2 {
 
 .hero-logo {
   display: block;
-  width: min(600px, 88vw);
+  width: min(560px, 86vw);
   height: auto;
-  margin: -18px auto 0;
+  margin: 0 auto;
   filter: drop-shadow(0 0 42px rgba(255, 255, 255, 0.08));
 }
 
@@ -649,4 +649,10 @@ h2 {
   .discord-action {
     justify-self: start;
   }
+}
+
+.brand-logo {
+  display: block;
+  width: 104px;
+  height: auto;
 }
