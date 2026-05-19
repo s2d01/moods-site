@@ -37,7 +37,7 @@ a {
 }
 
 .hero {
-  min-height: 690px;
+  min-height: 740px;
   padding: 28px;
 }
 
@@ -75,7 +75,7 @@ a {
 
 .hero-content {
   max-width: 960px;
-  margin: 36px auto 0;
+  margin: 88px auto 0;
   text-align: center;
 }
 
@@ -94,8 +94,8 @@ h1 {
 
 .hero-title {
   max-width: 880px;
-  margin: 28px auto 0;
-  font-size: clamp(2.45rem, 5.8vw, 5.8rem);
+  margin: 40px auto 0;
+  font-size: clamp(2.25rem, 5vw, 5.1rem);
   font-weight: 380;
   line-height: 1.02;
   letter-spacing: 0;
@@ -171,7 +171,7 @@ h1 {
 
 .video-block {
   max-width: 1180px;
-  margin: 0 auto;
+  margin: 54px auto 0;
   padding: 0 28px;
 }
 
@@ -327,7 +327,7 @@ h2 {
 
 @media (max-width: 780px) {
   .hero {
-    min-height: 640px;
+    min-height: 660px;
     padding: 22px;
   }
 
@@ -341,7 +341,7 @@ h2 {
   }
 
   .hero-content {
-    margin-top: 48px;
+    margin-top: 56px;
   }
 
   .subtitle {
@@ -353,12 +353,12 @@ h2 {
   }
 
   .hero-title {
-    margin-top: 24px;
-    font-size: clamp(2.15rem, 11vw, 3.4rem);
+    margin-top: 32px;
+    font-size: clamp(1.95rem, 9.6vw, 3rem);
   }
 
   .video-block {
-    margin-top: 0;
+    margin-top: 54px;
   }
 
   .video-placeholder {
