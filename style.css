@@ -552,6 +552,16 @@ h2 {
   line-height: 1.7;
 }
 
+@media (min-width: 1200px) {
+  .workflow-heading {
+    max-width: 1200px;
+  }
+
+  .workflow-heading p {
+    max-width: 1050px;
+  }
+}
+
 .workflow-cards {
   margin-top: 52px;
   display: grid;
