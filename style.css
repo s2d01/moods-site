@@ -205,10 +205,10 @@ h1 {
 
 h2 {
   margin: 0;
-  font-size: clamp(2.2rem, 5vw, 4.8rem);
+  font-size: clamp(1.55rem, 3vw, 3rem);
   font-weight: 420;
-  line-height: 1.02;
-  letter-spacing: -0.045em;
+  line-height: 1.08;
+  letter-spacing: -0.03em;
 }
 
 .grid {
@@ -624,10 +624,10 @@ h2 {
 
 .discord-copy h2 {
   margin: 0;
-  font-size: clamp(2rem, 4vw, 3.8rem);
+  font-size: clamp(1.55rem, 3vw, 3rem);
   font-weight: 420;
-  line-height: 1.02;
-  letter-spacing: -0.045em;
+  line-height: 1.08;
+  letter-spacing: -0.03em;
 }
 
 .discord-copy p:not(.eyebrow) {
