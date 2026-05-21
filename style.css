@@ -456,6 +456,74 @@ h2 {
   border: 0;
 }
 
+.quote-section {
+  max-width: 1180px;
+  margin: 96px auto 0;
+  padding: 0 28px;
+}
+
+.perceptual-quote {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 44px 0 42px 34px;
+  border-left: 1px solid rgba(155, 210, 189, 0.30);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.quote-original {
+  margin: 0;
+  color: rgba(243, 246, 245, 0.94);
+  font-size: clamp(1.35rem, 2.45vw, 2.45rem);
+  font-weight: 360;
+  line-height: 1.34;
+  letter-spacing: -0.015em;
+}
+
+.quote-attribution {
+  margin: 24px 0 0;
+  color: rgba(210, 232, 224, 0.78);
+  font-size: 0.95rem;
+  letter-spacing: 0.10em;
+}
+
+.quote-attribution cite {
+  font-style: normal;
+}
+
+.quote-translation {
+  max-width: 780px;
+  margin: 30px 0 0;
+  color: rgba(167, 180, 178, 0.82);
+  font-size: clamp(0.98rem, 1.2vw, 1.12rem);
+  line-height: 1.7;
+}
+
+@media (max-width: 780px) {
+  .quote-section {
+    margin-top: 72px;
+  }
+
+  .perceptual-quote {
+    padding: 30px 0 30px 22px;
+  }
+
+  .quote-original {
+    font-size: clamp(1.18rem, 6vw, 1.55rem);
+    line-height: 1.42;
+  }
+
+  .quote-attribution {
+    margin-top: 20px;
+    font-size: 0.85rem;
+  }
+
+  .quote-translation {
+    margin-top: 24px;
+    font-size: 0.96rem;
+  }
+}
+
 .early-form-action {
   margin-top: 34px;
 }
