@@ -102,6 +102,17 @@ h1 {
   text-wrap: balance;
 }
 
+@media (min-width: 1200px) {
+  .hero-content {
+    max-width: min(1480px, calc(100vw - 96px));
+  }
+
+  .hero-title {
+    max-width: min(1480px, calc(100vw - 96px));
+    text-wrap: normal;
+  }
+}
+
 .logo-word {
   display: block;
   font-size: clamp(4.2rem, 12vw, 10rem);
