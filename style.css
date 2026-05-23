@@ -102,14 +102,17 @@ h1 {
   text-wrap: balance;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .hero-content {
-    max-width: min(1480px, calc(100vw - 96px));
+    max-width: 1200px;
   }
 
   .hero-title {
-    max-width: min(1480px, calc(100vw - 96px));
+    max-width: 1200px;
+    font-size: clamp(1.55rem, 3vw, 3rem);
+    line-height: 1.08;
     text-wrap: normal;
+    white-space: nowrap;
   }
 }
 
