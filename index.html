@@ -95,14 +95,28 @@
       </div>
 
       <div class="video-frame">
-        <iframe width="560"
-          height="315"
-          src="https://www.youtube.com/embed/CBbsCGe-GA8?si=dTgfFbf1q5i6fY6x"
-          title="YouTube video player"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        <!-- MOODS YouTube Live config:
+          YOUTUBE_CHANNEL_ID = "UCUPDBYn2XEvgqfWk3-991NA"
+          CURRENT_YOUTUBE_VIDEO_ID = ""
+          USE_CHANNEL_LIVE_EMBED = true
+        -->
+        <!-- MOODS YouTube Live - channel live embed -->
+        <iframe
+          src="https://www.youtube.com/embed/live_stream?channel=UCUPDBYn2XEvgqfWk3-991NA"
+          title="MOODS Live Stream"
+          allow="autoplay; encrypted-media; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen>
         </iframe>
+        <!-- Fallback manuale se l'embed del canale non funziona:
+        <iframe
+          src="https://www.youtube.com/embed/PASTE_VIDEO_ID_HERE"
+          title="MOODS Live Stream"
+          allow="autoplay; encrypted-media; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen>
+        </iframe>
+        -->
       </div>
     </section>
 
