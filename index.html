@@ -85,22 +85,23 @@
       </section>
     </header>
 
-    <section class="video-block" aria-label="MOODS live stream">
+    <section class="video-block" aria-label="MOODS YouTube archive">
       <div class="video-copy">
-        <p class="eyebrow">Live Stream</p>
-        <h2>Listen to MOODS in real time</h2>
+        <p class="eyebrow">YouTube Archive</p>
+        <h2>Listen to the MOODS archive</h2>
         <p>
-          A continuous generative stream of evolving sonic environments created with MOODS
+          Explore the main YouTube archive for MOODS sessions, tests and long-form sonic environments.
         </p>
       </div>
 
+      <!-- Blocco live sospeso:
       <div class="video-frame">
-        <!-- MOODS YouTube Live config:
-          YOUTUBE_CHANNEL_ID = "UCUPDBYn2XEvgqfWk3-991NA"
-          CURRENT_YOUTUBE_VIDEO_ID = ""
-          USE_CHANNEL_LIVE_EMBED = true
-        -->
-        <!-- MOODS YouTube Live - channel live embed -->
+        MOODS YouTube Live config:
+        YOUTUBE_CHANNEL_ID = "UCUPDBYn2XEvgqfWk3-991NA"
+        CURRENT_YOUTUBE_VIDEO_ID = ""
+        USE_CHANNEL_LIVE_EMBED = true
+
+        MOODS YouTube Live - channel live embed
         <iframe
           src="https://www.youtube.com/embed/live_stream?channel=UCUPDBYn2XEvgqfWk3-991NA"
           title="MOODS Live Stream"
@@ -108,7 +109,8 @@
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen>
         </iframe>
-        <!-- Fallback manuale se l'embed del canale non funziona:
+
+        Fallback manuale se l'embed del canale non funziona:
         <iframe
           src="https://www.youtube.com/embed/PASTE_VIDEO_ID_HERE"
           title="MOODS Live Stream"
@@ -116,8 +118,17 @@
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen>
         </iframe>
-        -->
       </div>
+      -->
+
+      <a
+        class="archive-link"
+        href="https://www.youtube.com/channel/UCUPDBYn2XEvgqfWk3-991NA"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Open the main MOODS YouTube archive in a new tab">
+        <span class="archive-link-label">Open YouTube Archive</span>
+      </a>
     </section>
 
     <section class="quote-section" aria-label="Perceptual note">

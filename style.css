@@ -470,6 +470,44 @@ h2 {
   border: 0;
 }
 
+.archive-link {
+  min-height: 220px;
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.03)),
+    radial-gradient(circle at 50% 50%, rgba(155, 210, 189, 0.16), transparent 24rem),
+    #080e11;
+  box-shadow: 0 28px 80px rgba(0, 0, 0, 0.28);
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  padding: 42px 28px;
+  text-align: center;
+  text-decoration: none;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.archive-link:hover,
+.archive-link:focus-visible {
+  border-color: rgba(155, 210, 189, 0.55);
+  box-shadow: 0 0 42px rgba(155, 210, 189, 0.18);
+  transform: translateY(-1px);
+}
+
+.archive-link:focus-visible {
+  outline: 2px solid rgba(155, 210, 189, 0.8);
+  outline-offset: 4px;
+}
+
+.archive-link-label {
+  font-size: clamp(2.15rem, 5.2vw, 4.85rem);
+  font-weight: 400;
+}
+
 .quote-section {
   max-width: 1180px;
   margin: 96px auto 0;
