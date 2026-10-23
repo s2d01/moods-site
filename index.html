@@ -24,6 +24,8 @@
   <meta name="twitter:image:alt" content="MOODS — Evolving Sound Design Engine by S2D01">
 
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="analytics.css">
+  <script defer src="analytics.js"></script>
 
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="512x512" href="/images/favicon.png?v=5">
@@ -324,8 +326,22 @@
 
     <footer class="footer">
       <p>MOODS by S2D01</p>
+      <button type="button" class="analytics-settings" id="analytics-settings">Analytics preferences</button>
       <p>Copyright © 2026 S2D01 All rights reserved.</p>
     </footer>
   </main>
+  <section id="analytics-consent" class="analytics-consent" aria-labelledby="analytics-heading" hidden>
+    <h2 id="analytics-heading">Optional analytics</h2>
+    <p>May we use Google Analytics to understand visits and clicks on this website? It uses analytics cookies. Nothing is sent to Google Analytics unless you accept. Your choice does not affect Early Access.</p>
+    <details>
+      <summary>About these statistics</summary>
+      <p>MOODS by Simone Cappelli (S2D01) uses Google Analytics 4, provided by Google, to measure page visits and clicks on Early Access, YouTube and Discord. We do not send your name, email or form contents. Advertising features are disabled. Your choice is stored in this browser for six months. You can change it at any time using “Analytics preferences” in the footer.</p>
+      <p>For questions: <a href="mailto:info@s2d01.org">info@s2d01.org</a>. Read <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google’s privacy policy</a> for how Google processes data.</p>
+    </details>
+    <div class="analytics-actions">
+      <button type="button" id="analytics-reject">Reject analytics</button>
+      <button type="button" id="analytics-accept">Accept analytics</button>
+    </div>
+  </section>
 </body>
 </html>
